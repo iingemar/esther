@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h3>Kategorier</h3>
+    {% for category in categories %}
+        <div class="row">
+            <div class="span-4">
+                <a href="/kategori/{{ category }}">{{ category }}</a>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

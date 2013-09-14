@@ -1,0 +1,21 @@
+.main-container {
+    margin-bottom: 50px;
+}
+
+.sprite_big_icons, .sprite_module_header_icons.sprite_big_icons {
+    background-image: url('http://i1.midasplayer.com/images/html_rewrite/icons_sprite.png');
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+}
+.sprite_big_icons.item_inverted_star {
+    background-position: -1132px -92px;
+}
+.sprite_big_icons.item_star_gold {
+    background-position: -716px -92px;
+}
+.stars span {
+    margin-right: -15px;
+}
